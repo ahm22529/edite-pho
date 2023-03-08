@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="img" >
+            <div class="img-box">
+                <img id="img"  >
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="upload">
+                <label for="upload">upload</label>
+                <input type="file" id="upload" >
+                </div>
+                </div>
+                <div class="fli">
+                    <ul>
+                        <li>  
+                    
+                    <label for="sat">saturate</label>
+                        <input type="range" id="sat" min="0" max="200" value="100">
+                    </li>
+    
+                    <li>
+                        <label for="con">contrast</label>
+                        <input type="range" id="con" min="0" max="200" vule="100">
+                    </li>
+                    <li>
+                        <label for="pra">pritness</label>
+                        <input type="range" id="pra" min="0" max="200" vule="0">
+                    </li>
+                    <li>
+                        <label for="gry">grayscale</label>
+                        <input type="range" min="0" max="1" step=".1" id="gry" vule="0" >
+                    </li>
+                    <li>
+                        <label for="blur">blure</label>
+                        <input type="range" min="0" max="10" step=".1" id="blur" vule="0" >
+                    </li>
+                    <li>
+                        <label for="hue">hue rotate</label>
+                        <input type="range" value="0" min="0" max=350 id="hue">
+                    </li>
+                    <li>
+                        <a  download="ture" id="dawenload">dawenload </a>
+                        <span onclick="x()">rest</span>
+                    </li>
+        
+                </ul>
+                    </div>
+                 
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
