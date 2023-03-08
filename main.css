@@ -27,8 +27,9 @@ justify-content: space-between;
         flex-direction: column;
 
    }
-   .img{
+   .img,canvas{
     margin-bottom: 31px;
+    max-width: 80vw;
    }
 }
 .img{
@@ -38,7 +39,7 @@ justify-content: space-between;
  justify-content: center;
  align-items: center;
 }
-.img img{
+.img img,canvas{
     max-width: 45vw;
     max-height: 60vh;
 }
